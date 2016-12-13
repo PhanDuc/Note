@@ -1,0 +1,8 @@
+# Set full width of pandas when print out to console
+import pandas as pd
+pd.set_option("display.width", 320)
+==========================================
+# Check dataset have null values or not
+df = pd.read_csv("")
+df.isnull().values.any()
+
