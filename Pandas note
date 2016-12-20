@@ -6,3 +6,6 @@ pd.set_option("display.width", 320)
 df = pd.read_csv("")
 df.isnull().values.any()
 
+===========================================
+# Info of dataframe
+df.info()
