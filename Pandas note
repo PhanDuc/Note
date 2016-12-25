@@ -9,3 +9,6 @@ df.isnull().values.any()
 ===========================================
 # Info of dataframe
 df.info()
+==========================================
+# Count how many time values show up in dataframe
+dataframe['column'].value_counts()
