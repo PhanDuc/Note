@@ -12,3 +12,7 @@ df.info()
 ==========================================
 # Count how many time values show up in dataframe
 dataframe['column'].value_counts()
+
+==========================================
+# Check if value in column is in list 
+df2['userId'].isin([1,2,3,4,5])
