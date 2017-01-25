@@ -1,0 +1,4 @@
+Sử dụng $unset để loại bỏ các giá trị không cần thiết trong dict
+collection_view_buy_records.update({'objects.{0}'.format(item):{'$exists': 1}},
+                                           {'$unset': {'objects.{0}'.format(item):1}}, multi=True)
+=======================================================================================================                                           
