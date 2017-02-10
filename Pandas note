@@ -16,3 +16,6 @@ dataframe['column'].value_counts()
 ==========================================
 # Check if value in column is in list 
 df2['userId'].isin([1,2,3,4,5])
+=========================================
+Sorted values method
+pd.DataFrame.sort_values
